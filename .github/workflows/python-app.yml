@@ -27,4 +27,4 @@ jobs:
         run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV
 
       - name: Run unit tests
-        run: python -m test_person test_task.py
+        run: python -m unittest test_person.py
